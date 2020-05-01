@@ -1,7 +1,9 @@
 
 # Contrastive Self-Supervised Learning for Commonsense Reasoning
+
+## Note: Source code will be provided seen.
  
-This repository contains the source code for our paper * Contrastive Self-Supervised Learning for Commonsense Reasoning* to be presented at  [ACL2020]( https://acl2020.org/).
+This repository will contain the source code for our paper *Contrastive Self-Supervised Learning for Commonsense Reasoning* to be presented at  [ACL2020]( https://acl2020.org/).
  
 We propose a self-supervised method to solve *Pronoun Disambiguation* and *Winograd Schema Challenge* problems.
 Our approach exploits the characteristic structure of training corpora related to so-called *trigger* words, which are responsible for flipping the answer in pronoun disambiguation. 
