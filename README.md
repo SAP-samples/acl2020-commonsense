@@ -1,7 +1,7 @@
 
 # Contrastive Self-Supervised Learning for Commonsense Reasoning
 
-## Note: Source code will be provided seen.
+## Note: Source code will be provided soon.
  
 This repository will contain the source code for our paper *Contrastive Self-Supervised Learning for Commonsense Reasoning* to be presented at  [ACL2020]( https://acl2020.org/).
  
