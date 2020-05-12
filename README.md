@@ -23,6 +23,9 @@ Our architecture is based on the recently introduced transformer networks, BERT,
 - [PyTorch](https://pytorch.org/)
 - [Huggingface Tranformers](https://github.com/huggingface/transformers)
 
+## Related work
+See our work accepted [ACL'19](http://acl2019.org/) - *Attention Is (not) All You Need for Commonsense Reasoning* - proposing BERT attention-guidance for commonsense reasoning. [arXiv](https://arxiv.org/abs/1905.13497), [GitHub](https://github.com/SAP-samples/acl2019-commonsense/)
+
 ## Known Issues
 No issues known
 
