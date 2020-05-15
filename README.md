@@ -3,6 +3,9 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+#### News
+- 05/15/2020: Provided model for download
+
 ## Note: Source code will be provided soon.
  
 This repository will contain the source code for our paper [Contrastive Self-Supervised Learning for Commonsense Reasoning](https://arxiv.org/abs/2005.00669) to be presented at  [ACL2020]( https://acl2020.org/).
@@ -22,6 +25,27 @@ Our architecture is based on the recently introduced transformer networks, BERT,
 - [Python](https://www.python.org/)
 - [PyTorch](https://pytorch.org/)
 - [Huggingface Tranformers](https://github.com/huggingface/transformers)
+
+## Model:
+
+The BERT-Large model is available in the Huggingface repository as [sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020](https://huggingface.co/sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020).
+
+Loading the model in Python:
+
+```
+tokenizer = AutoTokenizer.from_pretrained("sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020")
+
+model = AutoModelWithLMHead.from_pretrained("sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020")
+```
+
+This model should reproduce the results reported in the paper:
+
+```
+Knowref-test:  0.6558966074313409
+DPR/WSCR-test:  0.8014184397163121
+WSC:  0.6959706959706959
+PDP:  0.9
+```
 
 ## Related work
 See our work accepted [ACL'19](http://acl2019.org/) - *Attention Is (not) All You Need for Commonsense Reasoning* - proposing BERT attention-guidance for commonsense reasoning. [arXiv](https://arxiv.org/abs/1905.13497), [GitHub](https://github.com/SAP-samples/acl2019-commonsense/)
