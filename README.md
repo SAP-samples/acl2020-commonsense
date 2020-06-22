@@ -63,13 +63,17 @@ If you use this code in your research,
 please cite:
 
 ```
-@misc{klein2020contrastive,
-    title={Contrastive Self-Supervised Learning for Commonsense Reasoning},
-    author={Tassilo Klein and Moin Nabi},
-    year={2020},
-    eprint={2005.00669},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{klein-nabi-2020-contrastive,
+    title = "Contrastive Self-Supervised Learning for Commonsense Reasoning",
+    author = "Klein, Tassilo  and
+      Nabi, Moin",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.671",
+    pages = "7517--7523"
 }
 ```
 
