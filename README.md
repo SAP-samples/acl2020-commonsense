@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 #### News
+- 07/17/2020: Provided source code
 - 05/15/2020: Provided model for download
 
 ## Note: Source code will be provided soon.
