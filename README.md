@@ -6,10 +6,8 @@
 #### News
 - 07/17/2020: Provided source code
 - 05/15/2020: Provided model for download
-
-## Note: Source code will be provided soon.
  
-This repository will contain the source code for our paper [Contrastive Self-Supervised Learning for Commonsense Reasoning](https://arxiv.org/abs/2005.00669) to be presented at  [ACL2020]( https://acl2020.org/).
+This repository contains the source code for our paper [Contrastive Self-Supervised Learning for Commonsense Reasoning](https://arxiv.org/abs/2005.00669) to be presented at  [ACL2020]( https://acl2020.org/).
 
 
  
