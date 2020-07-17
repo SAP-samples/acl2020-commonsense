@@ -21,7 +21,7 @@ Our architecture is based on the recently introduced transformer networks, BERT,
  - [Moin Nabi](https://moinnabi.github.io/)
 
 ## Requirements
-- [Python](https://www.python.org/)
+- [Python](https://www.python.org/) (version 3.6 or later)
 - [PyTorch](https://pytorch.org/)
 - [Huggingface Tranformers](https://github.com/huggingface/transformers)
 
