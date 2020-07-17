@@ -839,7 +839,6 @@ def main():
             print("Knowref-test: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="knowref-test"))
             print("DPR/WSCR-test: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="dpr-test"))
             print("WSC: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="wsc",  output_file='wsc-eval.tsv'))
-            print("WinoGender: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winogender"))
             print("PDP: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="pdp"))
 if __name__ == "__main__":
     main()
