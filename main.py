@@ -562,7 +562,7 @@ def main():
             len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
         
     # shuffle the data
-    random.shuffle(train_examples)
+    # random.shuffle(train_examples)
     if args.shuffle:
         # make sure that the labels are *not* used implicitly
         logger.info('Shuffling twin-pairs ...')
