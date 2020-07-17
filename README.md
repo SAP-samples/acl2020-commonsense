@@ -35,6 +35,14 @@ cd acl2020-commonsense-reasoning
 pip install -r requirements.txt
 ```
 
+2. Create 'data' sub-directory and download files for PDP, WSC challenge, etc.:
+```
+mkdir data
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WSCollection.xml
+cd ..
+```
+
 ## Model
 
 The BERT-Large model is available in the Huggingface repository as [sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020](https://huggingface.co/sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020).
