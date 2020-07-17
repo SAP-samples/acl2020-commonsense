@@ -25,7 +25,17 @@ Our architecture is based on the recently introduced transformer networks, BERT,
 - [PyTorch](https://pytorch.org/)
 - [Huggingface Tranformers](https://github.com/huggingface/transformers)
 
-## Model:
+
+## Download and Installation
+
+1. Clone this repository and install dependencies:
+```
+git clone https://github.com/SAP/acl2020-commonsense-reasoning
+cd acl2020-commonsense-reasoning
+pip install -r requirements.txt
+```
+
+## Model
 
 The BERT-Large model is available in the Huggingface repository as [sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020](https://huggingface.co/sap-ai-research/BERT-Large-Contrastive-Self-Supervised-ACL2020).
 
