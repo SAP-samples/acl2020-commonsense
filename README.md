@@ -35,11 +35,14 @@ cd acl2020-commonsense-reasoning
 pip install -r requirements.txt
 ```
 
-2. Create 'data' sub-directory and download files for PDP, WSC challenge, etc.:
+2. Create 'data' sub-directory and download files for PDP, WSC challenge, KnowRef and DPR.:
 ```
 mkdir data
 wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml
 wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WSCollection.xml
+wget https://raw.githubusercontent.com/aemami1/KnowRef/master/Knowref_dataset/knowref_test.json
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/train.c.txt
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/test.c.txt
 cd ..
 ```
 
