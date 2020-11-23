@@ -1,3 +1,8 @@
+#
+# SPDX-FileCopyrightText: 2020 SAP SE or an SAP affiliate company
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors and The HugginFace Inc. team., 2019 Intelligent Systems Lab, University of Oxford, SAP SE
 #

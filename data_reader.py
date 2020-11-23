@@ -1,3 +1,8 @@
+#
+# SPDX-FileCopyrightText: 2020 SAP SE or an SAP affiliate company
+#
+# SPDX-License-Identifier: Apache-2.0
+
 import os
 from tqdm import trange,tqdm
 #import gap_utils
