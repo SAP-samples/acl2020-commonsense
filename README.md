@@ -11,7 +11,7 @@
  
 This repository contains the source code for our paper [Contrastive Self-Supervised Learning for Commonsense Reasoning](https://arxiv.org/abs/2005.00669) to be presented at  [ACL2020]( https://acl2020.org/). The code is in parts based on the code from [Huggingface Tranformers](https://github.com/huggingface/transformers) and the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://github.com/vid-koci/bert-commonsense).
 
-![Schematic Illustration of MEx](https://github.com/SAP-samples/acl2020-commonsense/blob/master/img/mex_illustration.png)
+![Schematic Illustration of MEx](https://github.com/SAP-samples/acl2020-commonsense/blob/main/img/mex_illustration.png)
  
 We propose a self-supervised method to solve *Pronoun Disambiguation* and *Winograd Schema Challenge* problems.
 Our approach exploits the characteristic structure of training corpora related to so-called *trigger* words, which are responsible for flipping the answer in pronoun disambiguation. 
